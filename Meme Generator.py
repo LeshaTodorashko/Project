@@ -9,8 +9,8 @@ pygame.display.set_caption("Мем Вьюер")
 
 categories = ["Категорія 1", "Категорія 2", "Категорія 3"]
 images = {
-    "Категорія 1": [pygame.image.load("meme1.jpg"), pygame.image.load("meme2.jpg"), pygame.image.load("meme3.jpg")],
-    "Категорія 2": [pygame.image.load("meme4.jpg"), pygame.image.load("meme5.jpg"), pygame.image.load("meme6.jpg")],
+    "Категорія 1": [pygame.image.load("cat1.jpg"), pygame.image.load("cat2.jpg"), pygame.image.load("cat3.jpg"), pygame.image.load("cat4.jpg"), pygame.image.load("cat5.jpg"), pygame.image.load("cat6.jpg"), pygame.image.load("cat7.jpg"), pygame.image.load("cat8.jpg"), pygame.image.load("cat9.jpg"), pygame.image.load("cat10.jpg")],
+    "Категорія 2": [pygame.image.load("internet1.jpg"), pygame.image.load("internet2.jpg"), pygame.image.load("internet3.jpg"), pygame.image.load("internet4.jpg"), pygame.image.load("internet5.jpg"), pygame.image.load('internet6.jpg'), pygame.image.load("internet7.jpg"), pygame.image.load("internet8.jpg"), pygame.image.load("internet9.jpg"), pygame.image.load("internet10.jpg")],
     "Категорія 3": [pygame.image.load("meme7.jpg"), pygame.image.load("meme8.jpg"), pygame.image.load("meme9.jpg")]
 }
 
@@ -54,7 +54,7 @@ while game:
 
     # Відображення вибраного зображення
     if selected_image:
-        screen.blit(selected_image, (350, 200))
+        window.blit(selected_image, (350, 200))
 
     pygame.display.update()  # Оновлення екрану
 
